@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://multgestaosistemas.com.br/sitemap.xml
+Sitemap: https://multgestaoesistemas.com.br/sitemap.xml
