@@ -14,232 +14,346 @@
 <meta property="og:title" content="Mult Gestão e Sistemas — from code to operation">
 <meta property="og:description" content="The technology company of Grupo Avante. Developer and operator of BUSKAR and Consulta.ai.">
 <meta property="og:url" content="https://multgestaoesistemas.com.br/en/">
-<meta name="theme-color" content="#f4f2ec">
+<meta name="theme-color" content="#070a1a">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/site.css">
+<script>document.documentElement.classList.add("js")</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Mult Gestão e Sistemas",
+  "legalName": "MULT GESTAO E SISTEMAS LTDA",
+  "taxID": "68.916.372/0001-04",
+  "url": "https://multgestaoesistemas.com.br/",
+  "email": "contato@multgestaoesistemas.com.br",
+  "foundingDate": "2026-09-01",
+  "address": { "@type": "PostalAddress", "addressLocality": "Uberlândia", "addressRegion": "MG", "addressCountry": "BR" },
+  "parentOrganization": { "@type": "Organization", "name": "Grupo Avante", "url": "https://avante360.com/" },
+  "brand": [
+    { "@type": "Brand", "name": "BUSKAR", "url": "https://buskarveiculos.com/" },
+    { "@type": "Brand", "name": "Consulta.ai", "url": "https://appconsultaai.com/institucional" }
+  ]
+}
+</script>
 </head>
 <body>
-<a class="skip" href="#content">Skip to content</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+  <symbol id="i-out" viewBox="0 0 24 24"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-code" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></symbol>
+  <symbol id="i-rocket" viewBox="0 0 24 24"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></symbol>
+  <symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></symbol>
+  <symbol id="i-pulse" viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></symbol>
+  <symbol id="i-db" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></symbol>
+  <symbol id="i-server" viewBox="0 0 24 24"><rect width="20" height="8" x="2" y="2" rx="2" ry="2"/><rect width="20" height="8" x="2" y="14" rx="2" ry="2"/><line x1="6" x2="6.01" y1="6" y2="6"/><line x1="6" x2="6.01" y1="18" y2="18"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></symbol>
+  <symbol id="i-car" viewBox="0 0 24 24"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></symbol>
+  <symbol id="i-gauge" viewBox="0 0 24 24"><path d="m12 14 4-4"/><path d="M3.34 19a10 10 0 1 1 17.32 0"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></symbol>
+</svg>
 
-<header class="top">
+<a class="skip" href="#conteudo">Skip to content</a>
+
+<nav class="nav" aria-label="Main">
   <div class="wrap">
     <a class="brand" href="/en/" aria-label="Mult Gestão e Sistemas, home">
-      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" fill="#0f1317"/><path d="M10 10l12 12M22 10L10 22" stroke="#e8501f" stroke-width="3.4" stroke-linecap="square"/></svg>
+      <span class="mk"><svg><use href="#i-x"/></svg></span>
       <span>Mult <small>Gestão e Sistemas</small></span>
     </a>
-    <nav class="nav" aria-label="Main">
-      <a href="#what-we-do">What we do</a>
-      <a href="#apps">Apps</a>
-      <a href="#company">Company</a>
-      <a class="keep" href="#contact">Contact</a>
+    <div class="links">
+      <a href="#o-que-fazemos">What we do</a>
+      <a href="#aplicativos">Apps</a>
+      <a href="#empresa">Company</a>
+    </div>
+    <div class="nav-cta">
       <a class="lang" href="/" hreflang="pt-BR" lang="pt-BR">PT</a>
-    </nav>
+      <a class="falar" href="#contato">Contact Mult</a>
+    </div>
+  </div>
+</nav>
+
+<main id="conteudo">
+
+<header class="hero">
+  <div class="float-field" aria-hidden="true">
+    <div class="par" id="par">
+      <div class="tile" style="--s:150px;--sm:84px;--x:6%;--y:17%;--mx:-7%;--my:13%;--rx:14deg;--ry:-22deg;--rz:-8deg;--d:9s;--dl:-2s"><div class="obj g-ind"><svg><use href="#i-code"/></svg></div></div>
+      <div class="tile far" style="--s:92px;--x:19%;--y:72%;--rx:-10deg;--ry:26deg;--rz:10deg;--d:11s;--dl:-6s;--f:blur(1.5px);--o:.8"><div class="obj g-clear"><svg><use href="#i-db"/></svg></div></div>
+      <div class="tile" style="--s:118px;--sm:70px;--x:7%;--y:58%;--mx:-7%;--my:64%;--rx:18deg;--ry:14deg;--rz:6deg;--d:10s;--dl:-4s"><div class="obj g-acc"><svg><use href="#i-rocket"/></svg></div></div>
+      <div class="tile far" style="--s:64px;--x:25%;--y:12%;--rx:-6deg;--ry:-30deg;--rz:-14deg;--d:8s;--dl:-1s;--f:blur(3px);--o:.55"><div class="obj g-ind"><svg><use href="#i-shield"/></svg></div></div>
+      <div class="tile" style="--s:140px;--sm:78px;--x:81%;--y:14%;--mx:88%;--my:13%;--rx:-12deg;--ry:24deg;--rz:9deg;--d:10s;--dl:-7s"><div class="obj g-clear"><svg><use href="#i-phone"/></svg></div></div>
+      <div class="tile far" style="--s:84px;--x:67%;--y:13%;--rx:12deg;--ry:-18deg;--rz:-10deg;--d:9s;--dl:-3s;--f:blur(2.5px);--o:.6"><div class="obj g-acc"><svg><use href="#i-wrench"/></svg></div></div>
+      <div class="tile" style="--s:124px;--sm:72px;--x:85%;--y:52%;--mx:88%;--my:56%;--rx:16deg;--ry:-20deg;--rz:-7deg;--d:11s;--dl:-5s"><div class="obj g-deep"><svg><use href="#i-pulse"/></svg></div></div>
+      <div class="tile far" style="--s:76px;--x:73%;--y:71%;--rx:-14deg;--ry:22deg;--rz:12deg;--d:8.5s;--dl:-8s;--f:blur(1.5px);--o:.85"><div class="obj g-ind"><svg><use href="#i-server"/></svg></div></div>
+    </div>
+  </div>
+
+  <div class="hero-copy">
+    <span class="pill rv"><span>Grupo Avante</span> The group's technology company</span>
+    <h1 class="rv">Systems that Mult
+      <span class="rot-wrap" id="rot" aria-live="polite">
+        <span class="rot on"><em>builds</em></span>
+        <span class="rot"><em>launches</em></span>
+        <span class="rot"><em>maintains</em></span>
+        <span class="rot"><em>operates</em></span>
+      </span>
+    </h1>
+    <p class="hero-sub rv">From code to operation. <b>Mult Gestão e Sistemas</b> builds, launches, maintains and operates the platforms of Grupo Avante, a Brazilian business group. Among them, <b>BUSKAR</b> and <b>Consulta.ai</b>.</p>
+    <div class="hero-ctas rv">
+      <a class="btn btn-dark" href="#aplicativos">See the apps <i><svg class="ico"><use href="#i-arrow"/></svg></i></a>
+      <a class="btn btn-light" href="#empresa">About the company <i><svg class="ico"><use href="#i-arrow"/></svg></i></a>
+    </div>
+    <div class="hero-facts rv">
+      <span><b>Web</b>portals and dashboards</span>
+      <span><b>API</b>integrations</span>
+      <span><b>PDF</b>reports</span>
+    </div>
+  </div>
+
+  <div class="ticker" aria-label="What Mult builds and operates">
+    <div class="ticker-track">
+      <div class="ticker-item"><b>BUSKAR</b> vehicle history <strong>live</strong></div>
+      <div class="ticker-item"><b>Consulta.ai</b> credit analysis <strong>live</strong></div>
+      <div class="ticker-item"><b>Customer portals</b></div>
+      <div class="ticker-item"><b>Management dashboards</b></div>
+      <div class="ticker-item"><b>API for integrators</b></div>
+      <div class="ticker-item"><b>PDF reports</b></div>
+      <div class="ticker-item"><b>Transactional e-mail</b></div>
+      <div class="ticker-item"><b>Production monitoring</b></div>
+      <div class="ticker-item"><b>Mobile apps</b> <strong>in preparation</strong></div>
+      <div class="ticker-item" aria-hidden="true"><b>BUSKAR</b> vehicle history <strong>live</strong></div>
+      <div class="ticker-item" aria-hidden="true"><b>Consulta.ai</b> credit analysis <strong>live</strong></div>
+      <div class="ticker-item" aria-hidden="true"><b>Customer portals</b></div>
+      <div class="ticker-item" aria-hidden="true"><b>Management dashboards</b></div>
+      <div class="ticker-item" aria-hidden="true"><b>API for integrators</b></div>
+      <div class="ticker-item" aria-hidden="true"><b>PDF reports</b></div>
+      <div class="ticker-item" aria-hidden="true"><b>Transactional e-mail</b></div>
+      <div class="ticker-item" aria-hidden="true"><b>Production monitoring</b></div>
+      <div class="ticker-item" aria-hidden="true"><b>Mobile apps</b> <strong>in preparation</strong></div>
+    </div>
   </div>
 </header>
 
-<main id="content">
-
-  <section class="hero">
-    <div class="wrap">
-      <div>
-        <p class="eyebrow"><i></i><b>Technology company</b> of Grupo Avante</p>
-        <h1>From code<br><em>to operation.</em></h1>
-        <p class="lede"><strong>Mult Gestão e Sistemas</strong> builds, launches, maintains and operates the platforms of Grupo Avante, a Brazilian business group. Among them, <strong>BUSKAR</strong> and <strong>Consulta.ai</strong>.</p>
-        <div class="cta">
-          <a class="btn" href="#apps">See the apps
-            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5"/></svg>
-          </a>
-          <a class="more" href="mailto:contato@multgestaoesistemas.com.br">Contact Mult
-            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5"/></svg>
-          </a>
-        </div>
+<section class="palco" id="o-que-fazemos">
+  <div class="wrap">
+    <div class="head">
+      <div class="rv">
+        <span class="eyebrow">What Mult does</span>
+        <h2>From the first line of code<br><em class="grifo">to operation.</em></h2>
       </div>
-
-      <aside class="panel" aria-label="How Mult works">
-        <div class="panel-head"><span><span class="dot"></span>Work cycle</span><span>Mult / 01</span></div>
-        <div class="cycle">
-          <div class="stage"><span>01</span><b>Build</b><p>Web products and apps, from the database to the screen.</p></div>
-          <div class="stage"><span>02</span><b>Launch</b><p>Production release, with its own domain and e-mail.</p></div>
-          <div class="stage"><span>03</span><b>Maintain</b><p>Continuous fixes and improvements, reviewed at every change.</p></div>
-          <div class="stage"><span>04</span><b>Operate</b><p>Infrastructure, monitoring and support for the people who use it.</p></div>
-        </div>
-        <div class="live">
-          <a href="https://buskarveiculos.com/" rel="noopener">BUSKAR <small>Live ↗</small></a>
-          <a href="https://appconsultaai.com/institucional" rel="noopener">Consulta.ai <small>Live ↗</small></a>
-        </div>
-      </aside>
+      <p class="lead rv">One team follows each system from the first sketch to everyday use. No handover between vendors and no orphan software after launch.</p>
     </div>
-  </section>
+    <ul class="svc">
+      <li class="rv"><span class="n">01</span><span class="ic"><svg class="ico"><use href="#i-code"/></svg></span><h3>Development</h3><p>Web systems and apps: customer portals, management dashboards, PDF reports, APIs and integration with data providers.</p></li>
+      <li class="rv"><span class="n">02</span><span class="ic acc"><svg class="ico"><use href="#i-rocket"/></svg></span><h3>Launch</h3><p>The system goes live with its own production environment, domain and e-mail, and with follow-up of the first users.</p></li>
+      <li class="rv"><span class="n">03</span><span class="ic deep"><svg class="ico"><use href="#i-wrench"/></svg></span><h3>Maintenance</h3><p>Continuous fixes and improvements. Every change goes through review and automated tests before it is released.</p></li>
+      <li class="rv"><span class="n">04</span><span class="ic clear"><svg class="ico"><use href="#i-pulse"/></svg></span><h3>Operation</h3><p>Infrastructure, monitoring and support for the users of the systems in production.</p></li>
+    </ul>
 
-  <section class="sec" id="what-we-do">
-    <div class="wrap">
-      <div class="sec-head rv">
-        <div>
-          <p class="eyebrow"><i></i><b>01</b> What we do</p>
-          <h2>Those who write the code <em>look after it.</em></h2>
+    <div class="report">
+      <div class="doc rv" aria-label="Illustrative example of the path of a change up to release">
+        <div class="doc-top">
+          <span class="brand"><span class="mk"><svg><use href="#i-x"/></svg></span>Mult</span>
+          <span>Path of a change</span>
         </div>
-        <p>One team follows each system from the first sketch to everyday use. No handover between vendors, no orphan software after launch.</p>
+        <p class="doc-h">From change to release</p>
+        <p class="doc-s">Every change to a Mult system follows the same steps.</p>
+        <ul class="doc-rows">
+          <li><svg class="ico"><use href="#i-check"/></svg>Code written and described<span>Done</span></li>
+          <li><svg class="ico"><use href="#i-check"/></svg>Review before merging<span>Done</span></li>
+          <li><svg class="ico"><use href="#i-check"/></svg>Automated tests<span>Done</span></li>
+          <li class="on"><svg class="ico"><use href="#i-rocket"/></svg>Production release<span>Live</span></li>
+        </ul>
+        <p class="doc-foot">Illustrative example</p>
       </div>
-      <ul class="index">
-        <li class="rv"><span>01</span><h3>Development</h3><p>Web systems and mobile apps: customer portals, management dashboards, PDF reports, APIs for integrators and integration with data providers.</p></li>
-        <li class="rv"><span>02</span><h3>Launch</h3><p>We take the system live: production environment, domain, transactional e-mail and follow-up with the first users.</p></li>
-        <li class="rv"><span>03</span><h3>Maintenance</h3><p>Continuous fixes and improvements. Every change goes through review and automated tests before it is released.</p></li>
-        <li class="rv"><span>04</span><h3>Operation</h3><p>Infrastructure, monitoring and support for the users of the systems in production.</p></li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="sec" id="apps">
-    <div class="wrap">
-      <div class="sec-head rv">
-        <div>
-          <p class="eyebrow"><i></i><b>02</b> Apps</p>
-          <h2>Two products, <em>live.</em></h2>
-        </div>
-        <p>BUSKAR and Consulta.ai are developed and operated by Mult Gestão e Sistemas. Each one has its own website, terms of use and privacy policy.</p>
-      </div>
-
-      <div class="apps rv">
-        <article class="app">
-          <p class="app-tag"><b><i style="background:#0f46d8"></i>App / 01</b><span>Vehicle history</span></p>
-          <h3>BUSKAR</h3>
-          <p>Vehicle history reports for buyers and day-to-day management for car dealerships in Brazil.</p>
-          <figure class="art">
-            <svg viewBox="0 0 520 150" role="img" aria-label="Illustration: from a licence plate to a vehicle history report">
-              <rect x="8" y="34" width="190" height="82" rx="7" fill="#fff" stroke="#0f1317" stroke-width="2"/>
-              <rect x="8" y="34" width="190" height="20" rx="7" fill="#0f46d8"/><rect x="8" y="46" width="190" height="8" fill="#0f46d8"/>
-              <text x="103" y="49" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#fff" letter-spacing="2.4">BRASIL</text>
-              <text x="103" y="98" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="33" font-weight="500" fill="#0f1317" letter-spacing="2.5">BRA2E19</text>
-              <rect class="scan" x="14" y="57" width="178" height="2" fill="#e8501f" opacity=".85"/>
-              <path class="flow" d="M210 75h92" stroke="#0f1317" stroke-width="1.6"/>
-              <path d="M298 69l8 6-8 6" fill="none" stroke="#0f1317" stroke-width="1.6"/>
-              <rect x="322" y="12" width="190" height="126" fill="#fff" stroke="#0f1317" stroke-width="2"/>
-              <rect x="338" y="28" width="62" height="7" fill="#0f1317"/>
-              <g stroke="#d6d2c6" stroke-width="1"><path d="M338 54h158M338 76h158M338 98h158M338 120h158"/></g>
-              <g fill="#5a626c"><rect x="338" y="62" width="74" height="5"/><rect x="338" y="84" width="92" height="5"/><rect x="338" y="106" width="60" height="5"/></g>
-              <g fill="#0f1317"><rect x="456" y="62" width="40" height="5"/><rect x="446" y="84" width="50" height="5"/></g>
-              <rect x="462" y="104" width="34" height="9" fill="#e8501f"/>
-            </svg>
-            <figcaption>From plate to report · illustration</figcaption>
-          </figure>
-          <ul class="facts">
-            <li>Vehicle history lookup by licence plate</li>
-            <li>PDF report to keep and share</li>
-            <li>Inventory, sales, contacts and schedule for dealers</li>
-          </ul>
-          <div class="app-foot">
-            <small>Developed and operated by <b>Mult Gestão e Sistemas</b></small>
-            <a class="more" href="https://buskarveiculos.com/" rel="noopener">buskarveiculos.com
-              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 12L12 4M6 4h6v6"/></svg>
-            </a>
-          </div>
-        </article>
-
-        <article class="app">
-          <p class="app-tag"><b><i style="background:#1f8a4a"></i>App / 02</b><span>Credit analysis</span></p>
-          <h3>Consulta.ai</h3>
-          <p>Credit analysis for small and medium businesses in Brazil to decide with information before selling on credit.</p>
-          <figure class="art">
-            <svg viewBox="0 0 520 150" role="img" aria-label="Illustration: several data sources gathered into one report">
-              <g font-family="JetBrains Mono, monospace" font-size="10" fill="#0f1317" letter-spacing="1">
-                <rect x="8" y="14" width="150" height="24" fill="#fff" stroke="#0f1317" stroke-width="1.6"/><text x="20" y="30">CREDIT</text>
-                <rect x="8" y="46" width="150" height="24" fill="#fff" stroke="#0f1317" stroke-width="1.6"/><text x="20" y="62">REGISTRY</text>
-                <rect x="8" y="78" width="150" height="24" fill="#fff" stroke="#0f1317" stroke-width="1.6"/><text x="20" y="94">LEGAL</text>
-                <rect x="8" y="110" width="150" height="24" fill="#fff" stroke="#0f1317" stroke-width="1.6"/><text x="20" y="126">VEHICLE</text>
-              </g>
-              <g class="flow" fill="none" stroke="#0f1317" stroke-width="1.6">
-                <path d="M158 26h60q22 0 22 22v8q0 19 22 19h40"/>
-                <path d="M158 58h70q12 0 12 9t12 8h50"/>
-                <path d="M158 90h70q12 0 12-7t12-8h50"/>
-                <path d="M158 122h60q22 0 22-22v-6q0-19 22-19h40"/>
-              </g>
-              <path d="M298 69l8 6-8 6" fill="none" stroke="#0f1317" stroke-width="1.6"/>
-              <rect x="322" y="12" width="190" height="126" fill="#fff" stroke="#0f1317" stroke-width="2"/>
-              <rect x="338" y="28" width="62" height="7" fill="#0f1317"/>
-              <g stroke="#d6d2c6" stroke-width="1"><path d="M338 54h158M338 76h158M338 98h158M338 120h158"/></g>
-              <g fill="#5a626c"><rect x="338" y="62" width="84" height="5"/><rect x="338" y="84" width="66" height="5"/><rect x="338" y="106" width="96" height="5"/></g>
-              <g fill="#1f8a4a"><rect x="470" y="60" width="26" height="9"/><rect x="470" y="82" width="26" height="9"/></g>
-              <rect x="470" y="104" width="26" height="9" fill="#e8501f"/>
-            </svg>
-            <figcaption>Several sources, one report · illustration</figcaption>
-          </figure>
-          <ul class="facts">
-            <li>Credit, registry, legal and vehicle checks</li>
-            <li>Organised PDF report</li>
-            <li>API to plug the checks into the company's own system</li>
-          </ul>
-          <div class="app-foot">
-            <small>Developed and operated by <b>Mult Gestão e Sistemas</b></small>
-            <a class="more" href="https://appconsultaai.com/institucional" rel="noopener">appconsultaai.com
-              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 12L12 4M6 4h6v6"/></svg>
-            </a>
-          </div>
-        </article>
-      </div>
-      <p class="note rv">Available on the web. Mobile apps in preparation.</p>
-    </div>
-  </section>
-
-  <section class="sec" id="how-we-work">
-    <div class="wrap">
-      <div class="sec-head rv">
-        <div>
-          <p class="eyebrow"><i></i><b>03</b> How we work</p>
-          <h2>Three rules <em>that do not change.</em></h2>
-        </div>
-        <p>They apply to every system Mult takes live, from the first day of development to supporting the people who use it.</p>
-      </div>
-      <div class="grid3 rv">
-        <div><span>A</span><h3>One team from start to finish</h3><p>Those who build also maintain and operate. A production issue goes back to the people who know the code.</p></div>
-        <div><span>B</span><h3>Changes reviewed before release</h3><p>No change goes live without review and without passing the automated tests.</p></div>
-        <div><span>C</span><h3>Personal data handled responsibly</h3><p>Processing in line with the Brazilian data protection law (LGPD), with a privacy policy published for each product.</p></div>
+      <div class="rv">
+        <span class="eyebrow">How we work</span>
+        <h2>Three rules that <em class="grifo">do not change.</em></h2>
+        <ul class="checks">
+          <li><svg class="ico"><use href="#i-check"/></svg><span><b>One team from start to finish.</b> Those who build also maintain and operate. A production issue goes back to the people who know the code.</span></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><span><b>Changes reviewed before release.</b> No change goes live without review and without passing the automated tests.</span></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><span><b>Personal data handled responsibly.</b> Processing in line with the Brazilian data protection law (LGPD), with a privacy policy published for each product.</span></li>
+        </ul>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="sec dark" id="company">
-    <div class="wrap">
-      <div class="sec-head rv">
-        <div>
-          <p class="eyebrow"><i></i><b>04</b> Company</p>
-          <h2>The technology <em>of Grupo Avante.</em></h2>
+<section class="dark" id="aplicativos">
+  <div class="wrap">
+    <div class="head">
+      <div class="rv">
+        <span class="eyebrow">Apps</span>
+        <h2>Two products, <em class="grifo">live.</em></h2>
+      </div>
+      <p class="lead rv">BUSKAR and Consulta.ai are developed and operated by Mult Gestão e Sistemas. Each one has its own website, terms of use and privacy policy.</p>
+    </div>
+
+    <div class="apps">
+      <article class="app buskar rv">
+        <div class="app-top">
+          <span class="ic"><svg class="ico"><use href="#i-car"/></svg></span>
+          <div><p class="k">Vehicle history</p><h3>BUSKAR</h3></div>
+          <span class="live">Live</span>
         </div>
-        <p>Mult Gestão e Sistemas is the company of <a href="https://avante360.com/" rel="noopener">Grupo Avante</a> responsible for developing, maintaining and launching the group's systems.</p>
+        <p>Vehicle history reports for buyers and day-to-day management for car dealerships in Brazil.</p>
+        <figure class="art">
+          <svg viewBox="0 0 520 150" role="img" aria-label="Illustration: from a licence plate to a vehicle history report">
+            <rect x="8" y="34" width="190" height="82" rx="9" fill="#fff"/>
+            <path d="M8 43a9 9 0 0 1 9-9h172a9 9 0 0 1 9 9v11H8z" fill="#0f46d8"/>
+            <text x="103" y="49" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" font-weight="600" fill="#fff" letter-spacing="2.4">BRASIL</text>
+            <text x="103" y="98" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="33" font-weight="600" fill="#0c1024" letter-spacing="2.5">BRA2E19</text>
+            <rect class="scan" x="14" y="57" width="178" height="2" rx="1" fill="#ff6a2b"/>
+            <path class="flow" d="M212 75h88" stroke="rgba(255,255,255,.7)" stroke-width="1.6" fill="none"/>
+            <path d="M296 69l8 6-8 6" fill="none" stroke="rgba(255,255,255,.7)" stroke-width="1.6"/>
+            <rect x="322" y="12" width="190" height="126" rx="12" fill="rgba(255,255,255,.07)" stroke="rgba(255,255,255,.2)"/>
+            <rect x="338" y="28" width="62" height="7" rx="3" fill="#fff"/>
+            <g stroke="rgba(255,255,255,.14)"><path d="M338 54h158M338 76h158M338 98h158M338 120h158"/></g>
+            <g fill="rgba(255,255,255,.5)"><rect x="338" y="62" width="74" height="5" rx="2"/><rect x="338" y="84" width="92" height="5" rx="2"/><rect x="338" y="106" width="60" height="5" rx="2"/></g>
+            <g fill="rgba(255,255,255,.85)"><rect x="456" y="62" width="40" height="5" rx="2"/><rect x="446" y="84" width="50" height="5" rx="2"/></g>
+            <rect x="462" y="103" width="34" height="10" rx="5" fill="#ff6a2b"/>
+          </svg>
+          <figcaption>From plate to report · illustration</figcaption>
+        </figure>
+        <ul class="facts">
+          <li><svg class="ico"><use href="#i-check"/></svg>Vehicle history lookup by licence plate</li>
+          <li><svg class="ico"><use href="#i-check"/></svg>PDF report to keep and share</li>
+          <li><svg class="ico"><use href="#i-check"/></svg>Inventory, sales, contacts and schedule for dealers</li>
+        </ul>
+        <a class="want" href="https://buskarveiculos.com/" rel="noopener">Open buskarveiculos.com <svg class="ico"><use href="#i-out"/></svg></a>
+        <p class="by">Developed and operated by <b>Mult Gestão e Sistemas</b></p>
+      </article>
+
+      <article class="app consulta rv">
+        <div class="app-top">
+          <span class="ic"><svg class="ico"><use href="#i-gauge"/></svg></span>
+          <div><p class="k">Credit analysis</p><h3>Consulta.ai</h3></div>
+          <span class="live">Live</span>
+        </div>
+        <p>Credit analysis for small and medium businesses in Brazil to decide with information before selling on credit.</p>
+        <figure class="art">
+          <svg viewBox="0 0 520 150" role="img" aria-label="Illustration: several data sources gathered into one report">
+            <g font-family="JetBrains Mono, monospace" font-size="10" font-weight="600" fill="#fff" letter-spacing="1.2">
+              <rect x="8" y="14" width="150" height="24" rx="8" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.2)"/><text x="22" y="30">CREDIT</text>
+              <rect x="8" y="46" width="150" height="24" rx="8" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.2)"/><text x="22" y="62">REGISTRY</text>
+              <rect x="8" y="78" width="150" height="24" rx="8" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.2)"/><text x="22" y="94">LEGAL</text>
+              <rect x="8" y="110" width="150" height="24" rx="8" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.2)"/><text x="22" y="126">VEHICLE</text>
+            </g>
+            <g class="flow" fill="none" stroke="rgba(255,255,255,.7)" stroke-width="1.6">
+              <path d="M158 26h60q22 0 22 22v8q0 19 22 19h40"/>
+              <path d="M158 58h70q12 0 12 9t12 8h50"/>
+              <path d="M158 90h70q12 0 12-7t12-8h50"/>
+              <path d="M158 122h60q22 0 22-22v-6q0-19 22-19h40"/>
+            </g>
+            <path d="M298 69l8 6-8 6" fill="none" stroke="rgba(255,255,255,.7)" stroke-width="1.6"/>
+            <rect x="322" y="12" width="190" height="126" rx="12" fill="rgba(255,255,255,.07)" stroke="rgba(255,255,255,.2)"/>
+            <rect x="338" y="28" width="62" height="7" rx="3" fill="#fff"/>
+            <g stroke="rgba(255,255,255,.14)"><path d="M338 54h158M338 76h158M338 98h158M338 120h158"/></g>
+            <g fill="rgba(255,255,255,.5)"><rect x="338" y="62" width="84" height="5" rx="2"/><rect x="338" y="84" width="66" height="5" rx="2"/><rect x="338" y="106" width="96" height="5" rx="2"/></g>
+            <g fill="#3ddc97"><rect x="470" y="59" width="26" height="10" rx="5"/><rect x="470" y="81" width="26" height="10" rx="5"/></g>
+            <rect x="470" y="103" width="26" height="10" rx="5" fill="#ff6a2b"/>
+          </svg>
+          <figcaption>Several sources, one report · illustration</figcaption>
+        </figure>
+        <ul class="facts">
+          <li><svg class="ico"><use href="#i-check"/></svg>Credit, registry, legal and vehicle checks</li>
+          <li><svg class="ico"><use href="#i-check"/></svg>Organised PDF report</li>
+          <li><svg class="ico"><use href="#i-check"/></svg>API to plug the checks into the company's own system</li>
+        </ul>
+        <a class="want" href="https://appconsultaai.com/institucional" rel="noopener">Open appconsultaai.com <svg class="ico"><use href="#i-out"/></svg></a>
+        <p class="by">Developed and operated by <b>Mult Gestão e Sistemas</b></p>
+      </article>
+    </div>
+    <p class="apps-note rv">Available on the web. Mobile apps in preparation.</p>
+  </div>
+</section>
+
+<section class="palco" id="empresa">
+  <div class="wrap">
+    <div class="head">
+      <div class="rv">
+        <span class="eyebrow">Company</span>
+        <h2>The technology of<br><em class="grifo">Grupo Avante.</em></h2>
+      </div>
+      <p class="lead rv">Mult Gestão e Sistemas is the group company responsible for developing, maintaining and launching the systems. The details below are those of the official company registration.</p>
+    </div>
+    <div class="corp">
+      <div class="cartao rv">
+        <span class="eyebrow">Legal entity name</span>
+        <h3>MULT GESTAO E SISTEMAS LTDA</h3>
+        <span class="cnpj"><small>CNPJ · tax ID</small>68.916.372/0001-04</span>
+        <p>The technology company of <a href="https://avante360.com/" rel="noopener">Grupo Avante</a>, headquartered in Uberlândia, Minas Gerais, Brazil.</p>
       </div>
       <dl class="ficha rv">
-        <div><dt>Legal entity name</dt><dd>MULT GESTAO E SISTEMAS LTDA</dd></div>
-        <div><dt>CNPJ (tax ID)</dt><dd class="mono">68.916.372/0001-04</dd></div>
         <div><dt>Legal form</dt><dd>Limited liability company (Sociedade Empresária Limitada)</dd></div>
         <div><dt>Main activity</dt><dd>Custom software development</dd></div>
         <div><dt>Headquarters</dt><dd>Uberlândia, Minas Gerais, Brazil</dd></div>
         <div><dt>Founded</dt><dd>2026</dd></div>
-        <div><dt>Products</dt><dd>BUSKAR · Consulta.ai</dd></div>
+        <div><dt>Products</dt><dd>BUSKAR and Consulta.ai</dd></div>
+        <div><dt>Contact</dt><dd>contato@multgestaoesistemas.com.br</dd></div>
       </dl>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="sec contact" id="contact">
-    <div class="wrap rv">
-      <p class="eyebrow"><i></i><b>05</b> Contact</p>
-      <h2>Talk <em>to Mult.</em></h2>
-      <a class="mail" href="mailto:contato@multgestaoesistemas.com.br">contato@multgestaoesistemas.com.br</a>
-      <p class="note">Product support: use the support channels inside <a href="https://buskarveiculos.com/" rel="noopener">BUSKAR</a> and <a href="https://appconsultaai.com/institucional" rel="noopener">Consulta.ai</a>. Privacy and data protection matters: the same e-mail above.</p>
+<section class="final" id="contato">
+  <div class="wrap">
+    <div class="final-in">
+      <span class="eyebrow rv">Contact</span>
+      <h2 class="rv">Talk <em class="grifo">to Mult.</em></h2>
+      <p class="rv">Partnerships, press, privacy and data protection. Support for each product is in the help channels inside BUSKAR and Consulta.ai.</p>
+      <div class="hero-ctas rv">
+        <a class="btn btn-acc" href="mailto:contato@multgestaoesistemas.com.br"><span>contato@multgestaoesistemas.com.br</span> <i><svg class="ico"><use href="#i-mail"/></svg></i></a>
+        <a class="btn btn-light" href="#aplicativos">See the apps <i><svg class="ico"><use href="#i-arrow"/></svg></i></a>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
 
 </main>
 
-<footer class="foot">
+<footer>
   <div class="wrap">
-    <p>© 2026 <strong>MULT GESTAO E SISTEMAS LTDA</strong> · CNPJ 68.916.372/0001-04 · Uberlândia, MG, Brazil</p>
-    <nav aria-label="Footer">
-      <a href="/en/privacy/">Privacy</a>
-      <a href="https://avante360.com/" rel="noopener">Grupo Avante</a>
-      <a href="/" hreflang="pt-BR" lang="pt-BR">Português</a>
-    </nav>
+    <div class="foot">
+      <div>
+        <a class="brand" href="/en/"><span class="mk"><svg><use href="#i-x"/></svg></span><span>Mult <small>Gestão e Sistemas</small></span></a>
+        <p>The technology company of Grupo Avante. It builds, launches, maintains and operates systems, from code to operation.</p>
+      </div>
+      <div>
+        <h4>Apps</h4>
+        <ul>
+          <li><a href="https://buskarveiculos.com/" rel="noopener">BUSKAR</a></li>
+          <li><a href="https://appconsultaai.com/institucional" rel="noopener">Consulta.ai</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#o-que-fazemos">What we do</a></li>
+          <li><a href="#empresa">Company details</a></li>
+          <li><a href="https://avante360.com/" rel="noopener">Grupo Avante</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact and legal</h4>
+        <ul>
+          <li><a href="mailto:contato@multgestaoesistemas.com.br">Contact Mult</a></li>
+          <li><a href="/en/privacy/">Privacy</a></li>
+          <li><a href="/" hreflang="pt-BR" lang="pt-BR">Português</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <span>© 2026 <b>MULT GESTAO E SISTEMAS LTDA</b> · CNPJ 68.916.372/0001-04</span>
+      <span>Uberlândia, Minas Gerais, Brazil</span>
+    </div>
   </div>
 </footer>
 
