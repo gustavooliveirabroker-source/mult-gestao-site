@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Buskar">
+  <defs>
+    <path id="c" d="M1041 167L1070 119Q1077 107 1092 107H1126Q1141 107 1148 119L1177 167Q1187 172 1187 187V227Q1187 239 1175 239H1161V255H1131V239H1087V255H1057V239H1043Q1031 239 1031 227V187Q1031 172 1041 167Z"/>
+  </defs>
+  <rect x="12" y="12" width="488" height="488" rx="112" fill="#111318"/>
+  <rect x="40" y="40" width="432" height="432" rx="88" fill="#0F46D8"/>
+  <g transform="translate(256 262) scale(1.86) translate(-1109 -187)">
+    <use href="#c" fill="#F7F5EF"/>
+    <path d="M1080 125Q1084 119 1094 119H1124Q1134 119 1138 125L1156 160H1062Z" fill="#0F46D8"/>
+    <rect x="1050" y="180" width="27" height="16" rx="8" fill="#0F46D8"/>
+    <rect x="1141" y="180" width="27" height="16" rx="8" fill="#0F46D8"/>
+    <rect x="1078" y="211" width="62" height="10" rx="5" fill="#0F46D8"/>
+  </g>
+</svg>

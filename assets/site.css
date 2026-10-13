@@ -194,6 +194,9 @@ section{padding:104px 0}
 .app-top .ic svg{width:26px;height:26px}
 .app.buskar .ic{--a:#4f83ff;--b:#0f46d8}
 .app.consulta .ic{--a:#17c79a;--b:#066653}
+.app-top .logo{flex:none;display:block;width:auto;height:var(--h,44px)}
+.app-top .logo.sq{width:54px;height:54px}
+.app h3 img{display:block;width:auto;height:var(--h,40px);max-width:100%}
 .app .k{font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--f-rotulo)}
 .app .live{margin-left:auto;display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#fff;padding:7px 12px;border-radius:999px;background:rgba(255,255,255,.08);box-shadow:inset 0 0 0 1px rgba(255,255,255,.12)}
 .app .live::before{content:"";width:7px;height:7px;border-radius:50%;background:#3ddc97;box-shadow:0 0 0 4px rgba(61,220,151,.2);animation:pulse 2.4s ease-in-out infinite}
@@ -214,6 +217,25 @@ section{padding:104px 0}
 .app .by{margin-top:14px;font-size:12.5px;color:var(--f-rotulo)}
 .app .by b{color:var(--f-txt);font-weight:600}
 .apps-note{margin-top:22px;font-size:13px;color:var(--f-rotulo)}
+/* as outras marcas do grupo: logo oficial para fundo escuro, sem sombra nem recolorir */
+.sub-head{display:flex;justify-content:space-between;align-items:flex-end;gap:20px 40px;flex-wrap:wrap;margin:72px 0 24px}
+.sub-head h3{font-size:clamp(24px,2.8vw,34px);letter-spacing:-.035em;line-height:1.1;font-weight:800;color:var(--f-forte);margin-top:12px}
+.sub-head p{color:var(--f-txt);font-size:15.5px;max-width:30em}
+.marcas{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.marca{grid-column:span 2;position:relative;overflow:hidden;display:flex;flex-direction:column;min-height:250px;border-radius:var(--r-2xl);padding:26px;background:var(--vidro-escuro);border:1px solid var(--linha-escura);box-shadow:inset 0 1px 0 rgba(255,255,255,.07);transition:transform .35s var(--ease),border-color .3s,background .3s}
+.marca:nth-child(n+4){grid-column:span 3}
+.marca:hover{transform:translateY(-4px);border-color:rgba(255,255,255,.24);background:linear-gradient(160deg,rgba(255,255,255,.12),rgba(255,255,255,.05))}
+.marca .chip{align-self:flex-start;font-family:var(--mono);font-size:9.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);padding:6px 10px;border-radius:999px;background:rgba(18,198,245,.1);box-shadow:inset 0 0 0 1px rgba(18,198,245,.25)}
+.marca .lg{display:flex;align-items:center;gap:12px;height:64px;margin-top:22px}
+.marca .lg img{display:block;width:auto;height:var(--h,40px);max-width:100%}
+.marca .lg b{font-size:26px;font-weight:800;letter-spacing:-.03em;color:var(--f-forte)}
+.marca .k{margin-top:18px;font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--f-rotulo)}
+.marca .fr{margin-top:8px;font-size:16px;line-height:1.4;color:var(--f-forte);max-width:24em}
+.marca .go{margin-top:auto;padding-top:20px;display:flex;align-items:center;gap:7px;font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--f-txt)}
+.marca .go svg{width:14px;height:14px;stroke-width:2.2;transition:transform .3s var(--ease)}
+.marca:hover .go{color:#fff}
+.marca:hover .go svg{transform:translate(2px,-2px)}
+.foot ul.duas{grid-template-columns:1fr}
 
 /* empresa: cartão escuro com a razão social + ficha em vidro */
 .corp{display:grid;grid-template-columns:1fr 1.1fr;gap:14px}
@@ -286,6 +308,8 @@ footer .brand small{color:var(--f-rotulo)}
   .links{display:none}
   .svc{grid-template-columns:repeat(2,1fr)}
   .apps,.corp{grid-template-columns:1fr}
+  .marca,.marca:nth-child(n+4){grid-column:span 3}
+  .marca:last-child{grid-column:span 6}
   .report{grid-template-columns:1fr;gap:40px}
   .final .wrap{padding:0 10px}
   .foot{grid-template-columns:1fr 1fr}
@@ -310,6 +334,10 @@ footer .brand small{color:var(--f-rotulo)}
   .pill{font-size:12px;white-space:nowrap;padding-right:12px}
   .app .live{position:absolute;top:-42px;right:0;margin:0;white-space:nowrap}
   .app .k{white-space:nowrap}
+  .marcas{grid-template-columns:1fr;gap:10px}
+  .marca,.marca:nth-child(n+4),.marca:last-child{grid-column:auto;min-height:0;padding:22px}
+  .sub-head{margin:56px 0 18px}
+  .app h3 img{height:34px}
   .btn{height:52px}
   .svc{grid-template-columns:1fr;gap:10px}
   .svc li{min-height:0;display:grid;grid-template-columns:44px 1fr;column-gap:14px;row-gap:4px;padding:18px 16px}
